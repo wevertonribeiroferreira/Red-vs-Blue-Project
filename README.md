@@ -31,6 +31,14 @@ Nmap identified the following hosts on the network:
 # Vulnerability Assessment
 ##The assessment uncovered the following critical vulnerabilities in the target:
 
+|Vulnerability                          |Description                                                          | Impact                                   |
+|---------------------------------------|---------------------------------------------------------------------|------------------------------------------------|
+| Port 80 open  -  CVE-2019-6579        | Open and unsecured access to anyone attempting entry using Port 80. | Files and Folders are readily accessible. Sensitive (and secret) files and folders can be found.                      |
+| Ability to discover password by Brute force CVE-2019-3746|When an attacker uses numerous user and password combinations to access a device or system. | Easy access by use of brute force by programs such as ‘John the ripper’, Hydra and so on.|                              |
+| LFI Vulnerability                     |LFI allows access into confidential files on a vulnerable machine. | Allows attackers to gain access to sensitive credentials. |
+| Weak Passwords     | Common passwords, and the lack of complexity, such as the inclusion of symbols, numbers and capitals. | System access could be discovered by social engineering. that ‘Leopoldo’ password could be cracked in 21 seconds by a computer. |
+
+
 # Exploitation: **Brute Force Password**
 
 **Tools & Processes**
