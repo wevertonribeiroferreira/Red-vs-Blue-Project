@@ -29,7 +29,7 @@ Nmap identified the following hosts on the network:
 
 
 # Vulnerability Assessment
-##The assessment uncovered the following critical vulnerabilities in the target:
+##The assessment uncovered the following critical vulnerabilities in the target:##
 
 |Vulnerability                          |Description                                                          | Impact                                   |
 |---------------------------------------|---------------------------------------------------------------------|------------------------------------------------|
