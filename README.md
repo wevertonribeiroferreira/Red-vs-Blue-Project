@@ -29,7 +29,7 @@ Nmap identified the following hosts on the network:
 
 
 # Vulnerability Assessment
-##The assessment uncovered the following critical vulnerabilities in the target:##
+##The assessment uncovered the following critical vulnerabilities in the target:
 
 |Vulnerability                          |Description                                                          | Impact                                   |
 |---------------------------------------|---------------------------------------------------------------------|------------------------------------------------|
@@ -46,5 +46,9 @@ Nmap identified the following hosts on the network:
 I used Hydra which is already preinstalled on Kali Linux. I also required a password list – in this case I used rockyou.txt
 
 **Command**: $ hydra -l ashton -P /root/Downloads/rockyou.txt -s 80 -f 192.168.1.105 http-get /company_folders/secret_folder
-
+<p align="center">
+  <img src="https://github.com/wevertonribeiroferreira/Red-vs-Blue-Project/blob/main/Images/Screenshot%202021-10-23%20130839.png?raw=true?raw=true" alt="Sublime's custom image"/>
+</p>
 **Achievements**
+
+After getting all the information I was able to use the login name ‘ashton’ as well as the password ‘leopoldo’ to gain access.
