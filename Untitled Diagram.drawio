@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-07T16:40:49.401Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="BleIO1OIIbpjbxh-dD2z" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T04:36:59.081Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="tXof60eCE7z_husN4fVg" version="15.6.8" type="github">
   <diagram id="NgRh_RY3O9wHHyCAU43J" name="Page-1">
     <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,20 +16,20 @@
         <mxCell id="iK3XsjrEiQAHx5W0HgXq-5" value="ELK Server&lt;br&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;192.168.1.100&lt;/span&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="480.00000000000006" y="280.90000000000003" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iK3XsjrEiQAHx5W0HgXq-6" value="&lt;b&gt;Kibana&lt;/b&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/kibana-128.png" vertex="1" parent="1">
-          <mxGeometry x="300" y="300" width="70" height="70" as="geometry" />
+        <mxCell id="iK3XsjrEiQAHx5W0HgXq-6" value="&lt;b&gt;Kibana&lt;/b&gt;&lt;br&gt;http://192.168.1.100:5601/" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/kibana-128.png" vertex="1" parent="1">
+          <mxGeometry x="319" y="301" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iK3XsjrEiQAHx5W0HgXq-7" value="&lt;b&gt;Hyper-V&lt;br&gt;Azure Host&lt;br&gt;Machine&lt;br&gt;&lt;/b&gt;" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="1">
-          <mxGeometry x="150" y="280.9" width="45.6" height="61.800000000000004" as="geometry" />
+        <mxCell id="iK3XsjrEiQAHx5W0HgXq-7" value="&lt;b&gt;Hyper-V Azure Host&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;b&gt;Machine&lt;/b&gt;&lt;br&gt;192.168.1.1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="1">
+          <mxGeometry x="155" y="290" width="45.6" height="61.800000000000004" as="geometry" />
         </mxCell>
         <mxCell id="iK3XsjrEiQAHx5W0HgXq-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="90" as="sourcePoint" />
-            <mxPoint x="500" y="90" as="targetPoint" />
+            <mxPoint x="211" y="71" as="sourcePoint" />
+            <mxPoint x="501" y="71" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iK3XsjrEiQAHx5W0HgXq-16" value="Attack Machine finds vulnerabilities on the network, including Capstone Machine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="275" y="111.8" width="150" height="30" as="geometry" />
+        <mxCell id="iK3XsjrEiQAHx5W0HgXq-16" value="The VM finds vulnerabilities on the network, including Capstone Machine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="283" y="91.8" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iK3XsjrEiQAHx5W0HgXq-18" value="" style="endArrow=classic;html=1;rounded=1;sketch=0;curved=0;" edge="1" parent="1" source="iK3XsjrEiQAHx5W0HgXq-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -41,20 +41,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="iK3XsjrEiQAHx5W0HgXq-21" value="Activity log from Capstone Machine sent for analysis by ELK Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="504" y="210" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="iK3XsjrEiQAHx5W0HgXq-22" value="" style="endArrow=classic;html=1;rounded=1;sketch=0;curved=0;exitX=0.125;exitY=0.561;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.857;entryY=0.368;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iK3XsjrEiQAHx5W0HgXq-5" target="iK3XsjrEiQAHx5W0HgXq-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="474.20000000000005" y="325.18000000000006" as="sourcePoint" />
             <mxPoint x="371" y="325.7923299565847" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iK3XsjrEiQAHx5W0HgXq-23" value="" style="endArrow=classic;html=1;rounded=1;sketch=0;curved=0;exitX=-0.085;exitY=0.666;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="iK3XsjrEiQAHx5W0HgXq-23" value="" style="endArrow=classic;html=1;rounded=1;sketch=0;curved=0;exitX=-0.014;exitY=0.406;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="iK3XsjrEiQAHx5W0HgXq-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="306.20000000000005" y="329.18000000000006" as="sourcePoint" />
             <mxPoint x="203" y="329.7923299565847" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="iK3XsjrEiQAHx5W0HgXq-28" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;Logs sent for analysis by ELK Server&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#99FFFF;" vertex="1" parent="1">
+          <mxGeometry x="507" y="200" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
