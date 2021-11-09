@@ -249,15 +249,15 @@ A HTTP 401 Unauthorized client error indicates that the client failed to provide
 
 ## Alarm
 
-● Create an alert for any suspicious traffic on port 4444. The threshold for the alert to be sent is when one or more attempt is made. 
+● Create an alert for any suspicious traffic on port 4444. The alert needs to be sent is when one or more attempt is made. 
 
-● I recommend setting an alert for suspicious extensions  being uploaded into the /webDAV folder. The threshold for the alert to be sent is when one or more attempt is made.
+● I recommend setting an alert for suspicious extensions being uploaded into the /webDAV folder. The alert needs to be sent is when one or more attempt is made. 
 
 ## System Hardening
 
-● Block all IP addresses other than whitelisted IP addresses (because reverse shells can be created over DNS, this action will only limit the risk of reverse shell connections). 
+● Block all IP addresses other than whitelisted IP addresses (because reverse shells can be created over DNS, this action will only limit the risk of connect-back shell). 
 
-● Set access to the /webDAV folder to read only to prevent payloads from being uploaded 
+● On the /webDAV folder enable read only to prevent payloads uploaded.
 
 ● Only necessary ports are open.
 
