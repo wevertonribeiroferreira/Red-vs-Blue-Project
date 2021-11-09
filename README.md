@@ -2,7 +2,7 @@
   <img src="https://github.com/wevertonribeiroferreira/Red-vs-Blue-Project/blob/main/Images/logo.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
-# Preface
+# Introduction
 text.....
 text......
 
@@ -15,8 +15,7 @@ text......
 
 text
 
-# **Red Team** 
-## Security Assessment
+# **Red Team Assessment** 
 
 ### Recon: Describing the Target
 Nmap identified the following hosts on the network:
@@ -43,11 +42,23 @@ Nmap identified the following hosts on the network:
 
 # Exploitation: **Brute Force Password**
 
+
+**Findings**
+
+<p align="center">
+  <img src="https://github.com/wevertonribeiroferreira/Red-vs-Blue-Project/blob/main/Images/nmap.png"?raw=true" alt="Sublime's custom image"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/wevertonribeiroferreira/Red-vs-Blue-Project/blob/main/Images/Screenshot%202021-10-23%20142446.png"?raw=true" alt="Sublime's custom image"/>
+</p>
+
 **Tools & Processes**
 
-I used Hydra and a password list on Kali Linux called rockyou.txt.
+I used Hydra along with a wordlist rockyou.txt using the brute force technique.
 
-**Command**: $ hydra -l ashton -P /root/Downloads/rockyou.txt -s 80 -f 192.168.1.105 http-get /company_folders/secret_folder
+
+**Command**: # hydra -l ashton -P /usr/share/wordlists/rockyou.txt -s 80 -f -vV 192.168.1.105 http-get /company_folders/secret_folder/
 
 <p align="center">
   <img src="https://github.com/wevertonribeiroferreira/Red-vs-Blue-Project/blob/main/Images/Screenshot%202021-10-23%20130839.png?raw=true?raw=true" alt="Sublime's custom image"/>
@@ -73,9 +84,14 @@ I found 4 hosts up: On the Capstone Machine two ports was open: 22 and 80 (192.6
 
 # Exploitation: **Hashed Passwords**
 
+**Findings** 
+<p align="center">
+  <img src="https://github.com/wevertonribeiroferreira/Red-vs-Blue-Project/blob/main/Images/hash.png"?raw=true" alt="Sublime's custom image"/>
+</p>
+
 **Tools & Processes**
 
-I used online tools such as: **hashes.com** and **md5decrypt.net** to crack the hashed password.
+I used an online tools such as: **hashes.com** and **md5decrypt.net** to crack the hashed password.
 
 **Achievements**
 
@@ -99,7 +115,20 @@ Using the **multi/handler** exploit I could get access to the machine’s shell.
   <img src="https://github.com/wevertonribeiroferreira/Red-vs-Blue-Project/blob/main/Images/Screenshot%202021-10-23%20150905.png"?raw=true" alt="Sublime's custom image"/>
 </p>
 
-# **Blue Team** 
+<p align="center">
+  <img src="https://github.com/wevertonribeiroferreira/Red-vs-Blue-Project/blob/main/Images/Screenshot%202021-10-23%20155025.png"?raw=true" alt="Sublime's custom image"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/wevertonribeiroferreira/Red-vs-Blue-Project/blob/main/Images/Screenshot%202021-10-28%20194630.png"?raw=true" alt="Sublime's custom image"/>
+</p>
+
+### Flag captured
+<p align="center">
+  <img src="https://github.com/wevertonribeiroferreira/Red-vs-Blue-Project/blob/main/Images/InkedScreenshot%202021-10-28%20194727.jpg"?raw=true" alt="Sublime's custom image"/>
+</p>
+
+# **Blue Team Assessment** 
 ## Log Analysis and Attack Characterization
 
 ### Analysis: Identifying the Port Scan
@@ -176,7 +205,7 @@ Using the **multi/handler** exploit I could get access to the machine’s shell.
 
 ## System Hardening
 
-● Cold storage for highly sensitive information.
+● Offline storage for highly sensitive information.
 
 ● Rename folders containing critical data.
 
