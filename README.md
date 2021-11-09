@@ -4,7 +4,7 @@
 
 # Introduction
 
-I concluded this report with an immersive and very hand-on assessment  where I was able to use the tactics and tools available as a Red team player giving me a better understanding of how data exploitation happens and on the Blue side then once the vulnerability have been identified via SIEM, I was aware of the same malicious tactics, techniques and best procedures in order to build a better response strategies around them.
+I concluded this report with an immersive and very hands-on assessment  where I was able to use the tactics and tools available as a Red team player giving me a better understanding of how data exploitation happens and on the Blue side then once the vulnerability have been identified via SIEM, I was aware of the same malicious tactics, techniques and best procedures in order to build a better response strategies around them.
 
 # Network Topology
 
