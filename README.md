@@ -47,7 +47,7 @@ Nmap allowed me to identified the following hosts on the network:
   <img src="https://github.com/wevertonribeiroferreira/Red-vs-Blue-Project/blob/main/Images/nmap.png"?raw=true" alt="Sublime's custom image"/>
 </p>
 
-  After mapping the network with nmap I was able to gather valuable data about user information. I tried all the possibilites and the user **‘ashton’** was a good option to explore since he the manager/admin.
+  After mapping the network with nmap I was able to gather valuable data about user information. I tried all the possibilites and the user **‘ashton’** was a good option to explore since he is the Manager/admin.
                                                                                                                              
 <p align="center">
   <img src="https://github.com/wevertonribeiroferreira/Red-vs-Blue-Project/blob/main/Images/Screenshot%202021-10-23%20142446.png"?raw=true" alt="Sublime's custom image"/>
