@@ -285,5 +285,7 @@ A HTTP 401 Unauthorized client error indicates that the client failed to provide
 
 ● [Deception Technology](https://revolutionaries.zscaler.com/insights/you-need-deception-technology-and-its-not-why-you-think)
 
+## Apresentation Version:
 
+[Link](https://docs.google.com/presentation/d/1NBSeRC3NZ-KwQSiWs8FmSGG9fKPx8ULl/edit?usp=sharing&ouid=113802642956802592612&rtpof=true&sd=true)
 
