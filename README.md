@@ -13,18 +13,16 @@ I concluded this report with an immersive and very hands-on assessment  where I 
 </p>
 
 
-text
-
 # **Red Team Assessment** 
 
 ### Recon: Describing the Target
-Nmap identified the following hosts on the network:
+Nmap allowed me to identified the following hosts on the network:
 
 | Hostname                              | IP Address    | Role on Network                                |
 |---------------------------------------|---------------|------------------------------------------------|
 | Hyper-V Azure machine ML-RefVm-684427 | 192.168.1.1   | Host Machine Cloud based                       |
 | Kali                                  | 192.168.1.90  | Attacking Machine                              |
-| ELK Stack                             | 192.168.1.100 | Network Monitoring Machine running Kibana      |
+| ELK Stack                             | 192.168.1.100 | SIEM VM                                        |
 | Capstone                              | 192.168.1.105 | Target Machine Replicating a vulnerable server |
 
 
@@ -49,6 +47,8 @@ Nmap identified the following hosts on the network:
   <img src="https://github.com/wevertonribeiroferreira/Red-vs-Blue-Project/blob/main/Images/nmap.png"?raw=true" alt="Sublime's custom image"/>
 </p>
 
+  After mapping the network with nmap I was able to gather valuable data about user information. I tried all the possibilites and the user **‘ashton’** was a good option to explore since he the manager/admin.
+                                                                                                                             
 <p align="center">
   <img src="https://github.com/wevertonribeiroferreira/Red-vs-Blue-Project/blob/main/Images/Screenshot%202021-10-23%20142446.png"?raw=true" alt="Sublime's custom image"/>
 </p>
@@ -83,6 +83,8 @@ I found 4 hosts up: On the Capstone Machine two ports was open: 22 and 80 (192.6
 </p>
 
 # Exploitation: **Hashed Passwords**
+
+ After getting access to "connect_to_corp" it shows details about the hashed password.
 
 **Findings** 
 <p align="center">
