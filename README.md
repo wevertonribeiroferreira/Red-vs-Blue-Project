@@ -114,7 +114,7 @@ For the next step I used msfvenom and meterpreter to deliver a payload (php file
 Using the **multi/handler** exploit I could get access to the machine’s shell.
 
 <p align="center">
-  <img src="https://github.com/wevertonribeiroferreira/Red-vs-Blue-Project/blob/mainImages/Screenshot%202021-10-23%20150905.png"?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/wevertonribeiroferreira/Red-vs-Blue-Project/blob/main/Images/Screenshot%202021-10-23%20150905.png"?raw=true" alt="Sublime's custom image"/>
 </p>
 
 <p align="center">
