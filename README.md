@@ -263,6 +263,18 @@ A HTTP 401 Unauthorized client error indicates that the client failed to provide
 
 ● Only necessary ports are open.
 
+## Sources:
+
+[CVE-2019-6579](https://nvd.nist.gov/vuln/detail/CVE-2019-6579)
+[CVE-2019-3746](https://nvd.nist.gov/vuln/detail/CVE-2019-3746)
+[File Inclusion Vulnerabilities](https://www.offensive-security.com/metasploit-unleashed/file-inclusion-vulnerabilities/)
+[Password Monster](https://www.passwordmonster.com/)
+[Hydra](https://www.nanoshots.com.br/2015/07/brute-force-em-portas-ssh-com-hydra.html)
+[Hashes](https://www.hashes.com)
+[MD5Decrypt](https://www.md5decrypt.net)
+[Zero-Day](https://www.fireeye.com/current-threats/what-is-a-zero-day-exploit.html)
+[Honeypot](https://www.kaspersky.com.br/resource-center/threats/what-is-a-honeypot)
+[Deception Technology](https://revolutionaries.zscaler.com/insights/you-need-deception-technology-and-its-not-why-you-think)
 
 
 
