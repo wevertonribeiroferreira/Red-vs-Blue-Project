@@ -207,7 +207,7 @@ Using the **multi/handler** exploit I could get access to the machine’s shell.
 
 ## System Hardening
 
-● Offline storage for highly sensitive information.
+● Store highly sensitive information on a offline environment or a secured private cloud.
 
 ● Rename folders containing critical data.
 
